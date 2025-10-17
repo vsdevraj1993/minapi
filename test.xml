@@ -1,0 +1,37 @@
+<publishData>
+    <publishProfile profileName="minapi - Web Deploy" publishMethod="MSDeploy"
+        publishUrl="minapi-b7hhfkfzbqayd7hu.scm.eastus-01.azurewebsites.net:443"
+        msdeploySite="minapi" userName="$minapi"
+        userPWD="vlt6ACnaljB3Evl9iJfdNDEALgCdS77mDRmnLd0f3h5gAEsuXEnnYntrK63S"
+        destinationAppUrl="https://minapi-b7hhfkfzbqayd7hu.eastus-01.azurewebsites.net"
+        SQLServerDBConnectionString="" mySQLDBConnectionString="" hostingProviderForumLink=""
+        controlPanelLink="https://portal.azure.com" webSystem="WebSites">
+        <databases />
+    </publishProfile>
+    <publishProfile profileName="minapi - FTP" publishMethod="FTP"
+        publishUrl="ftps://waws-prod-blu-147.ftp.azurewebsites.windows.net/site/wwwroot"
+        ftpPassiveMode="True" userName="minapi\$minapi"
+        userPWD="vlt6ACnaljB3Evl9iJfdNDEALgCdS77mDRmnLd0f3h5gAEsuXEnnYntrK63S"
+        destinationAppUrl="https://minapi-b7hhfkfzbqayd7hu.eastus-01.azurewebsites.net"
+        SQLServerDBConnectionString="" mySQLDBConnectionString="" hostingProviderForumLink=""
+        controlPanelLink="https://portal.azure.com" webSystem="WebSites">
+        <databases />
+    </publishProfile>
+    <publishProfile profileName="minapi - Zip Deploy" publishMethod="ZipDeploy"
+        publishUrl="minapi-b7hhfkfzbqayd7hu.scm.eastus-01.azurewebsites.net:443" userName="$minapi"
+        userPWD="vlt6ACnaljB3Evl9iJfdNDEALgCdS77mDRmnLd0f3h5gAEsuXEnnYntrK63S"
+        destinationAppUrl="https://minapi-b7hhfkfzbqayd7hu.eastus-01.azurewebsites.net"
+        SQLServerDBConnectionString="" mySQLDBConnectionString="" hostingProviderForumLink=""
+        controlPanelLink="https://portal.azure.com" webSystem="WebSites">
+        <databases />
+    </publishProfile>
+    <publishProfile profileName="minapi - ReadOnly - FTP" publishMethod="FTP"
+        publishUrl="ftps://waws-prod-blu-147dr.ftp.azurewebsites.windows.net/site/wwwroot"
+        ftpPassiveMode="True" userName="minapi\$minapi"
+        userPWD="vlt6ACnaljB3Evl9iJfdNDEALgCdS77mDRmnLd0f3h5gAEsuXEnnYntrK63S"
+        destinationAppUrl="https://minapi-b7hhfkfzbqayd7hu.eastus-01.azurewebsites.net"
+        SQLServerDBConnectionString="" mySQLDBConnectionString="" hostingProviderForumLink=""
+        controlPanelLink="https://portal.azure.com" webSystem="WebSites">
+        <databases />
+    </publishProfile>
+</publishData>
