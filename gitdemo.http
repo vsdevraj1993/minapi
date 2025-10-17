@@ -1,0 +1,6 @@
+@gitdemo_HostAddress = http://localhost:5098
+
+GET {{gitdemo_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
